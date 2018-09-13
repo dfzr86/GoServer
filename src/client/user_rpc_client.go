@@ -12,13 +12,16 @@ import (
 type funcHandler func(w http.ResponseWriter, r *http.Request)
 
 type UserClient struct {
-
+	ModuleName	string
 	funcList	map[string]funcHandler
 }
 
 func NewUserClient() *UserClient {
 
-	uc := UserClient{}
+	uc := UserClient {
+		ModuleName:"user",
+	}
+
 	uc.funcList = make(map[string]funcHandler)
 
 	//openId

@@ -3,6 +3,7 @@ package user
 import (
 	"database/sql"
 	"fmt"
+	"helper"
 	"io/ioutil"
 	"mysql"
 	_ "mysql"
@@ -55,13 +56,10 @@ func GetOpenId(code string) (string, error) {
 
 	client := http.Client{}
 
-	appId := "wx48a9d80716d5e341"
-	appSecrety := "2d9202f4b54f9be364d96d27e99f4037"
-
 	url := "https://api.weixin.qq.com/sns/jscode2session?appid="
-	url += appId
+	url += helper.AppId
 	url += "&secret="
-	url += appSecrety
+	url += helper.AppSecrety
 	url += "&js_code="
 	url += code
 	url += "&grant_type=authorization_code"

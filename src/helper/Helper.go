@@ -1,10 +1,17 @@
 package helper
 
 import (
+	"encoding/json"
 	"fmt"
+	"math/rand"
+	"net"
 	"net/http"
 	"strings"
+	"time"
 )
+
+const AppId = "wx48a9d80716d5e341"
+const AppSecrety = "2d9202f4b54f9be364d96d27e99f4037"
 
 func GetModule(req *http.Request) (string, error) {
 
@@ -42,4 +49,44 @@ func GetMethod(req *http.Request) (string, error) {
 	}
 	method = strings.TrimRight(method, "/")
 	return method, nil
+}
+
+//RandomStr 随机生成字符串
+func RandomStr(length int) string {
+	str := "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	bytes := []byte(str)
+	result := []byte{}
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	for i := 0; i < length; i++ {
+		result = append(result, bytes[r.Intn(len(bytes))])
+	}
+	return string(result)
+}
+
+
+// LocalIP 获取机器的IP
+func LocalIP() string {
+	info, _ := net.InterfaceAddrs()
+	for _, addr := range info {
+		ipNet, ok := addr.(*net.IPNet)
+		if !ok {
+			continue
+		}
+		if !ipNet.IP.IsLoopback() && ipNet.IP.To4() != nil {
+			return ipNet.IP.String()
+		}
+	}
+	return ""
+}
+
+func MapStringToStruct(m map[string]string, i interface{}) error {
+	bin, err := json.Marshal(m)
+	if err != nil {
+		return err
+	}
+	err = json.Unmarshal(bin, i)
+	if err != nil {
+		return err
+	}
+	return nil
 }
