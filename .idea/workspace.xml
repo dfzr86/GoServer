@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2f0cd66-5cbd-4579-8157-20c03e450954" name="Default Changelist" comment="" />
+    <list default="true" id="f2f0cd66-5cbd-4579-8157-20c03e450954" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pay_rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pay_rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/user_rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/user_rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/Helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/Helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src" beforeDir="false" afterPath="$PROJECT_DIR$/src/src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,40 +34,40 @@
     <session id="694457368">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="15565" />
+          <entry key="go" value="16370" />
           <entry key="sql" value="1258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="15565" />
+          <entry key="Go" value="16370" />
           <entry key="SQL" value="1258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="199" />
+          <entry key="go" value="211" />
           <entry key="s" value="1" />
-          <entry key="sql" value="10" />
+          <entry key="sql" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="199" />
-          <entry key="SQL" value="10" />
+          <entry key="Go" value="211" />
+          <entry key="SQL" value="11" />
           <entry key="x86 Plan9 Assembly" value="1" />
         </counts>
       </usages-collector>
@@ -77,19 +85,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/user_rpc_client.go">
+        <entry file="file://$PROJECT_DIR$/src/client/pay_rpc_client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1325">
-              <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+            <state relative-caret-position="950">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/user/user.go">
+        <entry file="file://$PROJECT_DIR$/src/helper/Helper.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -133,13 +141,12 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/entry/first.go" />
-        <option value="$PROJECT_DIR$/src/comment/comment.go" />
         <option value="$PROJECT_DIR$/src/mysql/sql.sql.go" />
         <option value="$PROJECT_DIR$/src/mysql/sql.sql" />
         <option value="$PROJECT_DIR$/src/mysql/sql.go" />
@@ -152,9 +159,7 @@
         <option value="$PROJECT_DIR$/src/common/request.go" />
         <option value="$PROJECT_DIR$/src/handler.go" />
         <option value="$PROJECT_DIR$/src/common/Helper.go" />
-        <option value="$PROJECT_DIR$/src/helper/Helper.go" />
         <option value="$PROJECT_DIR$/src/client/vip_rpc_client.go" />
-        <option value="$PROJECT_DIR$/src/client/pay_rpc_client.go" />
         <option value="$PROJECT_DIR$/src/client/comment_rpc_client.go" />
         <option value="$PROJECT_DIR$/src/router.go" />
         <option value="$PROJECT_DIR$/src/mysql/mysql.sql" />
@@ -163,7 +168,11 @@
         <option value="$PROJECT_DIR$/src/config.go" />
         <option value="$PROJECT_DIR$/src/mysql/mysql.go" />
         <option value="$PROJECT_DIR$/src/client/user_rpc_client.go" />
+        <option value="$PROJECT_DIR$/src/comment/comment.go" />
         <option value="$PROJECT_DIR$/src/user/user.go" />
+        <option value="$PROJECT_DIR$/src/client/pay_rpc_client.go" />
+        <option value="$PROJECT_DIR$/src/helper/Helper.go" />
+        <option value="$PROJECT_DIR$/src/wechat/wechat.go" />
       </list>
     </option>
   </component>
@@ -173,11 +182,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="-859" />
     <option name="width" value="1440" />
-    <option name="height" value="1125" />
+    <option name="height" value="2537" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -196,11 +205,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +228,28 @@
               <item name="go" type="b2602c69:ProjectViewProjectNode" />
               <item name="go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="guidao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="guidao" type="462c0819:PsiDirectoryNode" />
+              <item name="gopay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go" type="b2602c69:ProjectViewProjectNode" />
@@ -242,13 +274,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="SearchEverywhereHistoryKey" value="ser&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;user.go&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;mysql&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.go&#10;sql.&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/database/sql/sql.go&#10;us&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;sq&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.sql&#10;sql.go&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.go&#10;user.g&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;arti&#9;FILE&#9;file:///Users/hanxu/go/src/client/article_rpc_client.go&#10;user&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;article&#9;FILE&#9;file:///Users/hanxu/go/src/client/article_rpc_client.go&#10;sort.&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/sort/sort.go&#10;ar&#9;FILE&#9;file:///Users/hanxu/go/src/client/article_rpc_client.go&#10;router&#9;FILE&#9;file:///Users/hanxu/go/src/router.go&#10;servi&#9;FILE&#9;file:///Users/hanxu/go/src/service.go&#10;serrpc&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;string&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/strings/strings.go&#10;handler&#9;FILE&#9;file:///Users/hanxu/go/src/handler.go&#10;vip&#9;FILE&#9;file:///Users/hanxu/go/src/client/vip_rpc_client.go&#10;userr&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;rout&#9;FILE&#9;file:///Users/hanxu/go/src/router.go&#10;reque&#9;FILE&#9;file:///Users/hanxu/go/src/common/request.go&#10;request&#9;FILE&#9;file:///Users/hanxu/go/src/common/request.go&#10;serv&#9;FILE&#9;file:///Users/hanxu/go/src/service.go&#10;articl&#9;FILE&#9;file:///Users/hanxu/go/src/article/article.go&#10;artil&#9;null&#9;null&#10;user.&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;map.go&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/runtime/map.go&#10;.sq&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.sql&#10;server&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/net/http/server.go&#10;NullString&#9;null&#9;null&#10;mysql.go&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.go&#10;mysql.&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.sql&#10;mapg&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/runtime/map.go" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;help&#9;FILE&#9;file:///Users/hanxu/go/src/helper/Helper.go&#10;ser&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;user.go&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;mysql&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.go&#10;sql.&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/database/sql/sql.go&#10;us&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;sq&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.sql&#10;sql.go&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.go&#10;user.g&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;arti&#9;FILE&#9;file:///Users/hanxu/go/src/client/article_rpc_client.go&#10;article&#9;FILE&#9;file:///Users/hanxu/go/src/client/article_rpc_client.go&#10;sort.&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/sort/sort.go&#10;ar&#9;FILE&#9;file:///Users/hanxu/go/src/client/article_rpc_client.go&#10;router&#9;FILE&#9;file:///Users/hanxu/go/src/router.go&#10;servi&#9;FILE&#9;file:///Users/hanxu/go/src/service.go&#10;serrpc&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;string&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/strings/strings.go&#10;handler&#9;FILE&#9;file:///Users/hanxu/go/src/handler.go&#10;vip&#9;FILE&#9;file:///Users/hanxu/go/src/client/vip_rpc_client.go&#10;userr&#9;FILE&#9;file:///Users/hanxu/go/src/client/user_rpc_client.go&#10;rout&#9;FILE&#9;file:///Users/hanxu/go/src/router.go&#10;reque&#9;FILE&#9;file:///Users/hanxu/go/src/common/request.go&#10;request&#9;FILE&#9;file:///Users/hanxu/go/src/common/request.go&#10;serv&#9;FILE&#9;file:///Users/hanxu/go/src/service.go&#10;articl&#9;FILE&#9;file:///Users/hanxu/go/src/article/article.go&#10;artil&#9;null&#9;null&#10;user.&#9;FILE&#9;file:///Users/hanxu/go/src/user/user.go&#10;map.go&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/runtime/map.go&#10;.sq&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.sql&#10;server&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/net/http/server.go&#10;NullString&#9;null&#9;null&#10;mysql.go&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.go&#10;mysql.&#9;FILE&#9;file:///Users/hanxu/go/src/mysql/mysql.sql&#10;mapg&#9;FILE&#9;file:///usr/local/Cellar/go/1.11/libexec/src/runtime/map.go" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -311,7 +342,7 @@
     <frame x="1920" y="-859" width="1440" height="2537" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,13 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/Helper.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/reflect/type.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -461,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mysql/mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -475,13 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/1/1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2012">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/1/1.go" />
     <entry file="file://$PROJECT_DIR$/src/handler.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -503,48 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#14#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/database/sql/sql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
           <caret line="1618" column="69" selection-start-line="1618" selection-start-column="69" selection-end-line="1618" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mysql/mysql.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/pay_rpc_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/vip_rpc_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comment/comment.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -562,24 +535,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service.go">
+    <entry file="file://$PROJECT_DIR$/src/client/vip_rpc_client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="14" selection-start-line="8" selection-end-line="9" />
+        <state relative-caret-position="375">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/user_rpc_client.go">
+    <entry file="file://$PROJECT_DIR$/src/service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        <state relative-caret-position="300">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mysql/mysql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mysql/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="7" selection-start-line="20" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/user/user.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="1200">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/user_rpc_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comment/comment.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wechat/wechat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/pay_rpc_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/Helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
